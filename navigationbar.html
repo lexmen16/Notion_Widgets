@@ -37,11 +37,11 @@
 		}
 
 		.navMenu a {
-			color: #272727;
+			color: #337EA9;
 			text-decoration: none;
 			text-transform: none;
 			display: inline-block;
-			padding: 6px;
+			padding: 10px;
 		}
 
 		.background {
@@ -49,13 +49,13 @@
 		}
 
 		.border {
-			border: 1px solid #cccccc;
+			border: 1px solid #337EA9;
 
 		}
 
 		.navMenu a:hover {
 
-			color: #d09c0b;
+			color: #AEC2B7;
 		}
 
 	</style>
@@ -64,11 +64,12 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="dashboard" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i>Dashboard</a>
-		
-
-
-
+		<a id="dashboard" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-headset"></i> Dashboard</a>
+		<a id="schedule" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-calendar-days"></i> Schedule</a>
+		<a id="resources" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-folder-closed"></i> Resources</a>
+		<a id="meetingnotes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-users-rectangle"></i> Meeting Notes</a>
+		<a id="discussion" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-comments"></i> Discussion Board</a>
+		<a id="documents" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-file-lines"></i> Documents</a>
 	</nav>
 
 
@@ -82,32 +83,17 @@
 
 		function navigate(id) {
 
-			if (id == 'home')
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "inbox")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "week")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "tasks")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "knowledge")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "topics")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "notes")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "media")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "resourses")
-				window.open("https://example.com3", '_blank').focus();
-			else if (id == "lifewiki")
-				window.open("https://example.com", '_blank').focus();
+			if (id == 'dashboard')
+				window.open("https://www.notion.so/Customer-Experience-Agent-Dashboard-8e24eb2a297b441da2218423c086732c?pvs=4", '_parent').focus();
+			else if (id == "schedule")
+				window.open("https://www.notion.so/Customer-Experience-Agent-Dashboard-8e24eb2a297b441da2218423c086732c?pvs=4#2f60e8574260496ea3e077c07da12fd0", '_parent').focus();
+
+
+
+
+
+
+
 
 		}
 	</script>
