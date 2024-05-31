@@ -30,9 +30,9 @@
   			font-style: normal;
 		}
 
-			padding: 4px;
+			padding: 3px;
 			text-align: center;
-			margin: 4px auto;
+			margin: 3px auto;
 			width: fit-content;
 		}
 
@@ -70,6 +70,7 @@
 		<a id="meetingnotes" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-users-rectangle"></i> Meeting Notes</a>
 		<a id="discussion" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-comments"></i> Discussion Board</a>
 		<a id="documents" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-file-lines"></i> Documents</a>
+		<a id="earthfoam" onclick="navigate(this.id)" href="#"> <i class="fa-brands fa-pagelines"></i> Earthfoam</a>
 	</nav>
 
 
@@ -86,13 +87,18 @@
 			if (id == 'dashboard')
 				window.open("https://www.notion.so/Customer-Experience-Agent-Dashboard-8e24eb2a297b441da2218423c086732c?pvs=4", '_parent').focus();
 			else if (id == "schedule")
-				window.open("https://www.notion.so/Customer-Experience-Agent-Dashboard-8e24eb2a297b441da2218423c086732c?pvs=4#2f60e8574260496ea3e077c07da12fd0", '_parent').focus();
-
-
-
-
-
-
+				window.open("https://www.notion.so/Schedule-9323229db3524f74a6a8f61d8c0f7377?pvs=4", '_parent').focus();
+			else if (id == "resources")
+				window.open("https://www.notion.so/df974a9b53db40c68923030d010d9cde?v=2ee056a8acae4a5b97d99805381cc43e&pvs=4", '_parent').focus();
+			else if (id == "meetingnotes")
+				window.open("https://www.notion.so/Weekly-Meeting-Summaries-3ff5b50ab7ec474f9c20cde7c5bc5594?pvs=4", '_parent').focus();
+			else if (id == "discussion")
+				window.open("https://www.notion.so/Discussion-Board-42769c7abb2a4999b54aa9938d89cda6?pvs=4", '_parent').focus();
+			else if (id == "documents")
+				window.open("https://www.notion.so/Documents-cae421cf63d542b08a3071aeb64d7216?pvs=4", '_parent').focus();
+			else if (id == "earthfoam")
+				window.open("https://www.notion.so/Earthfoam-8e6e314e536b4fb98b5700866a2e0352?pvs=4", '_parent').focus();
+		
 
 
 		}
